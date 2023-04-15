@@ -1,0 +1,68 @@
+/* Write your CSS here */
+
+.cart-summary-main-container {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-summary-main-container {
+    align-self: flex-end;
+  }
+}
+
+.order-price-items-container-summary {
+  align-self: flex-end;
+}
+
+.price-details-text-cart-summary {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.order-total-cart-summary {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 19px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .price-details-text-cart-summary {
+    font-size: 25px;
+  }
+  .order-total-cart-summary {
+    font-size: 21px;
+  }
+}
+
+.num-of-items-cart-summary {
+  color: #616e7c;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .num-of-items-cart-summary {
+    font-size: 15px;
+    width: 100%;
+  }
+}
+
+.checkout-button-cart-summary {
+  background-color: #0b69ff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
